@@ -10,5 +10,6 @@
 
 ## Dev
 1. [Install deno](https://deno.land/manual@v1.11.5/getting_started/installation)
-2. Run locallly: `deno run --allow-net src/index.ts <COLOR-NAME>`
-3. Compile: `deno compile --allow-net --output colors src/index.ts`
+2. Reformat: `deno fmt`   
+3. Run locally: `deno run --allow-net src/index.ts <COLOR-NAME>`
+4. Compile: `deno compile --allow-net --output colors src/index.ts`
