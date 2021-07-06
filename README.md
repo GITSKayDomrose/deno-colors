@@ -1,5 +1,7 @@
 # Colors (Deno)
 
+![Screenshot](./screenshot.png "Screenshot")
+
 ## Run 
 ```shell
 ./colors               # List all colors
