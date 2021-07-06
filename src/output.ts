@@ -20,10 +20,10 @@ const output = (colors: Color[], search: string = "") => {
     ? colors.filter((color: Color) => color.name.includes(search))
     : colors;
 
-  console.log(hasSearchQuery ? `Colors with "${search}"` : "All Colors");
+  console.log(hasSearchQuery ? `Colors with "${search}":` : "All Colors:");
   listColors(filteredColors);
   console.log("\n");
-  console.log(`Run 'colors <COLOR-Name>' to search for color names.`);
+  console.log(`Run 'colors <COLOR-NAME>' to search for color names.`);
 };
 
 export default output;
